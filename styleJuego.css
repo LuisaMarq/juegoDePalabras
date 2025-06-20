@@ -1,0 +1,39 @@
+/*boton contador */
+
+.button-contador {
+    padding: 12px 20px;
+    background:#3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    display: inline;
+    align-items: center;
+}
+
+
+/*boton buscador*/
+
+.button-buscador {
+    padding: 12px 20px;
+    background:#3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    display: inline;
+    align-items: center;
+}
+
+/*boton acronimo*/
+
+.button-acronimo {
+    padding: 12px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    display: inline;
+    align-items: center;
+}
