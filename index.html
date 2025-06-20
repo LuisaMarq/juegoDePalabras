@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./indexCss.css">
+        <title>Document</title>
+    </head>
+    <body>
+    
+    <div class="contenedor">
+        <div id="contador">
+            <h1>Contador de Caracteres y Palabras</h1>
+            <br>
+    
+            <label for="texto-input">Texto:</label>
+            <input type="text" id="texto-input" placeholder='Ejemplo: "Hola mundo"'>
+        
+            <button class ="button-ejecutar" id="ejecutar-btn">Ejecutar</button>
+        
+            <h1>Resultados de Contar</h1>
+            <div class="result-pantalla" id="result-pantalla">
+                El resultado aparecerá aquí...
+            </div>
+        </div>
+
+        <div id="buscador" style="display: none;">
+            <h1>Buscador</h1>
+            <br>
+            <label for="textoB">Texto:</label>
+            <input type="text" id="textoB" placeholder='Ejemplo: "Hola mundo"'>
+            <br>
+            <input type="text" id="palabra-input" placeholder="Palabra">
+
+            <button class ="button-ejecutar" id="buscar-btn">Buscar</button>
+
+            <h1>Resultados de Buscar</h1>
+
+            <label for="resultado">Texto con coincidencias</label>
+        
+            <div class="result-pantalla" id="resultB">
+                El resultado aparecerá aquí...
+            </div>
+        </div>
+
+        <div id="acronimo" style="display: none;">
+            <h1>Acronimos</h1>
+
+            <label for="textoA">Texto:</label>
+            <input type="text" id="textoA" placeholder='Ejemplo: "Hola mundo"'>
+            <button class ="button-ejecutar" id="ejecutarBtn">Ejecutar</button>
+            
+            <h1>Resultados de Acronimos</h1>
+
+            <div class="result-pantalla" id="resultA">
+                El resultado aparecerá aquí...
+            </div>
+        </div>
+
+        <div class="contenedor-botones">
+            <!-- Boton contador-->
+            <button class ="button-contador" id="contBtn">Contador</button>
+            <!-- Boton buscador-->
+            <button class ="button-buscador" id="findBtn">Buscador</button>
+            <!-- Boton acronimo-->
+            <button class ="button-acronimo" id="acroBtn">Acronimo</button>
+        </div>
+        
+    </div>
+        <script src="./indexJs.js"></script>    
+    </body>
+</html>
