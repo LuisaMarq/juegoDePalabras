@@ -1,0 +1,193 @@
+body {
+    
+
+    font-family: "Orbitron", sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+
+
+
+}
+        
+h1 {
+    text-align: center;
+    color: #333;
+}
+        
+.contenedor {
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+        
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #444;
+}
+        
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/*****************************************************************************************/
+
+/*botones
+
+
+/* contenedor boton */
+.contenedor-botones {
+ 
+    margin-top: 16.78px;
+}
+
+
+/*boton ejecutar */
+
+.button-ejecutar {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #750b45, #a60eb4);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 2%;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-ejecutar:hover {
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.button-ejecutar:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/*boton contador */
+
+.button-contador {
+    
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #9240c2, #7321aa);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 27px;
+}
+
+.button-contador:hover {
+    background: linear-gradient(135deg, #2980b9, #044b45);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.button-contador:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.button-contador::before{
+    content: "🌞";
+    font-size: 12px;
+}
+
+/*boton buscador*/
+
+.button-buscador {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-buscador:hover {
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.button-buscador:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.button-buscador::before{
+    content: "🕵🏿";
+    font-size: 12px;
+}
+
+/*boton acronimo*/
+
+.button-acronimo {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-acronimo:hover {
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.button-acronimo:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-acronimo::before{
+    content: "🐦‍";
+    font-size: 12px;
+}
+        
+/***********************************************************************/
+.result-pantalla {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f5e9;
+    min-height: 60px;
+    font-family: 'Courier New', monospace;
+}
